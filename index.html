@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DiversiTech</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">DiversiTech</div>
+    <ul class="nav-links">
+      <li><a href="#opportunities">Opportunities</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+  </nav>
+
+  <nav id="hamburger-nav">
+    <div class="logo">DiversiTech</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#opportunities" onclick="toggleMenu()">Opportunities</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+      </div>
+    </div>
+  </nav>
+
+  <section id="hero">
+    <div class="hero-content">
+      <img src="assets/logo.png" alt="DiversiTech Logo" class="hero-logo" />
+      <div class="hero-title-wrapper">
+        <h1 class="hero-title">Welcome to DiversiTech!</h1>
+      </div>
+    </div>
+  </section>
+
+  <section id="jobs">
+    <h2 class="title">Opportunities</h2>
+    <p>Explore curated opportunities designed to support underrepresented students in tech — including internships, mentorships, scholarships, and events.</p>
+    
+    <div class="opportunity-container">
+      <div class="opportunity-box">
+        <h1>AfroTech Conference</h1>
+        <img src="assets/afrotech-icon.jpg">
+        <p><strong>Type:</strong> Event</p>
+        <p><strong>Description:</strong> AfroTech is a premier tech conference that brings together Black tech professionals, entrepreneurs, and students to network, learn, and explore career opportunities in the tech industry.</p>
+        <button class="visit-btn" onclick="window.open('https://www.google.com/about/careers/')">Visit Site →</button>
+      </div>
+
+      <div class="opportunity-box">
+        <h1>Women Who Code</h1>
+        <img src="assets/womenwhocode-icon.png">
+        <p><strong>Type:</strong> Event, Mentorship</p>
+        <p><strong>Description:</strong> Women Who Code hosts global events that support women in tech through networking, technical workshops, and career development to help close the gender gap in the industry.</p>
+        <button class="visit-btn" onclick="window.open('https://womenwhocode.com/')">Visit Site →</button>
+      </div>
+
+      <div class="opportunity-box">
+        <h1>Black Girls Code</h1>
+        <img src="assets/blackgirlscode-icon.png">
+        <p><strong>Type:</strong> Program</p>
+        <p><strong>Description:</strong> Black Girls Code empowers young Black girls to become innovators in STEM by providing hands-on workshops, coding programs, and events that foster skills and confidence in tech.</p>
+        <button class="visit-btn" onclick="window.open('https://wearebgc.org/')">Visit Site →</button>
+      </div>
+
+      <div class="opportunity-box">
+        <h1>Tech Bridge</h1>
+        <img src="assets/techbridge-icon.png">
+        <p><strong>Type:</strong> Program</p>
+        <p><strong>Description:</strong> TechBridge is a nonprofit that connects underserved communities with technology solutions, offering workforce development programs and tech-focused training to bridge the digital divide.</p>
+        <button class="visit-btn" onclick="window.open('https://wearebgc.org/')">Visit Site →</button>
+      </div>
+
+      <div class="opportunity-box">
+        <h1>Break Through Tech</h1>
+        <img src="assets/breakthroughtech-icon.png">
+        <p><strong>Type:</strong> Program, Internship</p>
+        <p><strong>Description:</strong> Break Through Tech works to increase gender diversity in tech by offering programs like Sprinternships™, career development workshops, and networking opportunities for women and nonbinary students in computing.</p>
+        <button class="visit-btn" onclick="window.open('https://wearebgc.org/')">Visit Site →</button>
+      </div>
+
+      <div class="opportunity-box">
+        <h1>Rewriting the Code</h1>
+        <img src="assets/rewriting-icon.png">
+        <p><strong>Type:</strong> Program</p>
+        <p><strong>Description:</strong> Rewriting The Code is a nonprofit organization that connects collegiate women with career opportunities in tech through mentorship programs, job placements, and a network of professional women in the industry.</p>
+        <button class="visit-btn" onclick="window.open('https://wearebgc.org/')">Visit Site →</button>
+      </div>
+
+      <div class="opportunity-box">
+        <h1>Asian Women Giving Circle</h1>
+        <img src="assets/asian-icon.png">
+        <p><strong>Type:</strong> Program</p>
+        <p><strong>Description:</strong> The Asian Women Giving Circle supports Asian American women-led organizations by providing funding, leadership, and resources to initiatives that address social justice issues, with a focus on community empowerment and advocacy.</p>
+        <button class="visit-btn" onclick="window.open('https://wearebgc.org/')">Visit Site →</button>
+      </div>
+
+      <div class="opportunity-box">
+        <h1>Out In Tech</h1>
+        <img src="assets/outintech-icon.png">
+        <p><strong>Type:</strong> Program</p>
+        <p><strong>Description:</strong> Out in Tech is a nonprofit organization that connects LGBTQ+ people in the tech industry through networking events, mentorship opportunities, and career development programs, aiming to support the community’s growth in tech fields.</p>
+        <button class="visit-btn" onclick="window.open('https://wearebgc.org/')">Visit Site →</button>
+      </div>
+
+      <div class="opportunity-box">
+        <h1>Techqueria</h1>
+        <img src="assets/techqueria-icon.png">
+        <p><strong>Type:</strong> Program</p>
+        <p><strong>Description:</strong> Techqueria is a nonprofit organization that provides a community and resources for Latinx professionals in the tech industry, offering networking events, career development, and support for those pursuing tech careers.</p>
+        <button class="visit-btn" onclick="window.open('https://techqueria.org/')">Visit Site →</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2 class="title">Contact</h2>
+    <p>If you have questions, suggestions, or would like to collaborate, feel free to reach out using the form below. We’d love to hear from you!</p><br>
+    <form class="contact-form" action="#" method="post">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="4" required placeholder="*There is no backend support for this site at this time, so this form will not work.*"></textarea>
+
+      <button type="submit" class="view-org-btn">Send Message</button>
+    </form>
+  </section>
+
+  <section id="about">
+    <h2 class="title">About</h2>
+    <p>DiversiTech was created as part of an advocacy-focused technology project to address the ongoing underrepresentation of marginalized groups in the tech industry. Developed by Shaina Silawan, a software engineer committed to equity in tech, this site serves as a centralized hub for discovering life-changing opportunities. By making internships, scholarships, mentorships, and events more accessible, DiversiTech helps bridge the gap in access and representation.</p>
+    <p>The platform is currently in beta, with ongoing development to improve how opportunities are gathered and displayed. Future implementations will focus on automating listings, enhancing search and filtering, implementing back end, and creating a more personalized user experience to better serve the community.</p>
+  </section>
+
+  <footer>
+    <p>© 2025 DiversiTech</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
